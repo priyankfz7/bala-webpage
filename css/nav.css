@@ -1,0 +1,50 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px;
+  background: #ffffff;
+  padding: 8px;
+  z-index: 5;
+  border-bottom: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+.right-nav > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.left-nav {
+  width: 40%;
+}
+.right-nav {
+  padding: 25px;
+  width: 50%;
+}
+.left-nav img {
+  width: 60px;
+  margin-left: 50px;
+}
+.right-nav a {
+  text-decoration: none;
+  color: #5f27cd;
+  font-family: "Fredoka", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: all 0.3s;
+}
+.right-nav a:hover {
+  border-bottom: 2px solid #5f27cd;
+}
+.right-nav-op {
+  display: none;
+  width: 50%;
+}
+.close-icon {
+  display: none;
+}
+.right-nav-op > span {
+  position: relative;
+  top: -18px;
+}

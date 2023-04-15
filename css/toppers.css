@@ -1,0 +1,23 @@
+.all-toppers {
+  padding: 30px 0px;
+  width: 100%;
+  background-image: linear-gradient(#f2ecd9, #c8ba9d);
+  background-color: #f2ecd9;
+  margin-bottom: 15px;
+}
+
+.finaltopmai {
+  height: 630px;
+  object-fit: contain;
+  border: 7px ridge gainsboro;
+}
+.all-toppers h1 {
+  width: 40%;
+
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0px;
+  border-bottom: 4px solid salmon;
+  margin: auto;
+}

@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1200px) {
+  .right-nav a {
+    margin-left: 15px;
+  }
+  .social-d {
+    width: 6%;
+    left: 0%;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .social-d {
+    top: 30%;
+    width: 7%;
+    left: 2%;
+  }
+  .right-nav {
+    display: none;
+  }
+  .right-nav-op {
+    display: block;
+    font-size: 50px;
+    color: #000;
+    text-align: right;
+    margin-right: 40px;
+    position: relative;
+    top: 15px;
+  }
+  .close-icon {
+    display: block;
+    position: relative;
+    top: -500px !important;
+    right: -85% !important;
+  }
+  .close-icon:hover {
+    border: none !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .social-d {
+    width: 8.6%;
+    top: 20%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .social-d {
+    width: 9.6%;
+    top: 44%;
+    left: 0%;
+  }
+  .whojag h2 {
+    font-size: 30px;
+  }
+  .footer-div {
+    flex-direction: column;
+  }
+  ul {
+    width: 95%;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 550px) {
+  .social-d {
+    width: 10.6%;
+    top: 42%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .social-d {
+    width: 12%;
+    top: 38%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .social-d {
+    flex-direction: row;
+    width: 40%;
+    padding: 0;
+    height: fit-content;
+  }
+  .social-d img {
+    width: 80%;
+    margin: 0;
+    margin-left: 10px !important;
+  }
+}
+.clicknavicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: #fff;
+  height: 650px;
+  z-index: 99999;
+}
