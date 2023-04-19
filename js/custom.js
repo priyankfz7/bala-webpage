@@ -56,3 +56,19 @@ getnavicon.onclick = () => {
 getcloseicon.onclick = () => {
   getmainnav.classList.remove("clicknavicon");
 };
+
+const readMoreBtn = document.querySelector(".read-more-btn");
+
+const readMoreText = document.querySelector(".read-more-text");
+const readLessBtn = document.querySelector(".read-less-btn");
+
+function handleReadMore() {
+  readMoreText.style.display = "inline-block";
+  readMoreBtn.style.display = "none";
+  readLessBtn.style.display = "inline-block";
+}
+function handleReadLess() {
+  readMoreText.style.display = "none";
+  readMoreBtn.style.display = "inline-block";
+  readLessBtn.style.display = "none";
+}

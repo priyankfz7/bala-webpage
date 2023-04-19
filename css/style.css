@@ -2,151 +2,180 @@
 @import "footer.css";
 @import "strength.css";
 @import "toppers.css";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* navigation css */
 
 /* banner css starts here */
-main{
-    background-color: #5f27cd;
+main {
+  background-color: #5f27cd;
 }
-main img{
-    object-fit: contain;
+main img {
+  object-fit: contain;
 }
 /* who is jag css starts here */
 
-.whojag{
-    text-align: center;
-    padding: 30px 0px;
-    max-width: 90%;
-    margin: auto;
+.whojag {
+  text-align: center;
+  padding: 30px 0px;
+  max-width: 90%;
+  margin: auto;
 }
-.whojag h2{
-    font-family: 'Fredoka', sans-serif;
-    font-size: 45px;
-    margin-bottom: 20px;
+.whojag h2 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 45px;
+  margin-bottom: 20px;
 }
-.aboutjag p{
-    font-size: 20px;
-    color: #2c3e50;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    -webkit-box-shadow: 10px 10px 24px 8px rgba(235,235,235,1);
--moz-box-shadow: 10px 10px 24px 8px rgba(235,235,235,1);
-box-shadow: 10px 10px 24px 8px rgba(235,235,235,1);
-padding: 20px;
-border-radius: 20px;
+.aboutjag p {
+  font-size: 20px;
+  color: #2c3e50;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-box-shadow: 10px 10px 24px 8px rgba(235, 235, 235, 1);
+  -moz-box-shadow: 10px 10px 24px 8px rgba(235, 235, 235, 1);
+  box-shadow: 10px 10px 24px 8px rgba(235, 235, 235, 1);
+  padding: 20px;
+  border-radius: 20px;
 }
 /* why bala css starts here*/
-.whybala>h2{
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-weight: 600;
+.whybala > h2 {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 600;
 }
-.cardss{
-    padding: 20px 0px 30px 0px;
+.cardss {
+  padding: 20px 0px 30px 0px;
 }
-.c1,.c2,.c3{
-    border-radius: 35px;
-    background: linear-gradient(145deg, #ffffff, #ffffff);
-    box-shadow:  5px 5px 10px #d7caea,
-                 -5px -5px 10px #decafb;
-/* border: 2px solid #564a87; */
-border-radius: 20px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 22px;
-color: #2c3e50;
+.c1,
+.c2,
+.c3 {
+  border-radius: 35px;
+  background: linear-gradient(145deg, #ffffff, #ffffff);
+  box-shadow: 5px 5px 10px #d7caea, -5px -5px 10px #decafb;
+  /* border: 2px solid #564a87; */
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 22px;
+  color: #2c3e50;
 }
-.c1 img,.c2 img,.c3 img{
-    width: 30%;
-    padding: 20px 0px;
+.c1 img,
+.c2 img,
+.c3 img {
+  width: 30%;
+  padding: 20px 0px;
 }
-.whybala h2{
-    font-family: 'Fredoka', sans-serif;  
-    font-size: 45px;
-    margin: 20px 0px;
+.whybala h2 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 45px;
+  margin: 20px 0px;
 }
-.whybala a{
-    display: inline-block;
-color: #fff;
-background-color:#ff9f1a;
-text-decoration: none;
-border-radius: 40px;
-padding: 15px 40px;
-font-size: 22px;
-font-weight: 500;
-font-family: Arial, Helvetica, sans-serif;
-margin: 20px 0px;
+.whybala a {
+  display: inline-block;
+  color: #fff;
+  background-color: #ff9f1a;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0px;
 }
-.whybala a:hover{
-    background-color: #fff;
-    color: #000;
-    border: 1.5px solid #ff9f1a;
+.whybala a:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1.5px solid #ff9f1a;
 }
-.cardss div:hover{
-    transform: scale(1.1);
-    transition-duration: 1.45s;
+.cardss div:hover {
+  transform: scale(1.1);
+  transition-duration: 1.45s;
 }
 /* strength section css starts here */
 /* #5a4bda */
 /* courses section here */
-.courses-cb-isc{
-    width: 100%;
-    margin: 30px 0px;
+.courses-cb-isc {
+  width: 100%;
+  margin: 30px 0px;
 }
-.socci h2{
-    text-align: center;
-    font-family: 'Fredoka', 'sans-serif';
-    font-size: 45px;
-    padding: 20px 0px;
+.socci h2 {
+  text-align: center;
+  font-family: "Fredoka", "sans-serif";
+  font-size: 45px;
+  padding: 20px 0px;
 }
-.captionme{
-    border: 1px solid rgba(170, 161, 161, 0.364);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    text-align: center;
-    padding-bottom: 20px;
+.captionme {
+  border: 1px solid rgba(170, 161, 161, 0.364);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+  padding-bottom: 20px;
 }
-.captionme p{
-    color: #192a56;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    font-weight: 600;
+.captionme p {
+  color: #192a56;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
 }
-.captionme a{
-    text-decoration: none;
-   font-size: 18px;
+.captionme a {
+  text-decoration: none;
+  font-size: 18px;
 }
-.main-coursee div:hover{
-    transform: scale(1.1);
-    transition-duration: 1.45s;
+.main-coursee div:hover {
+  transform: scale(1.1);
+  transition-duration: 1.45s;
 }
 /* footer css here */
 
-  /* social fixed buttons css here */
-  .social-d{
-    width: 4%;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    text-align: center;
-    position: fixed;
-    top: 70%;
-    left: 2%;
-    border-radius: 100px;
-    z-index: 9999;
-  }
-  .social-d img{
-    width: 100%;
-    border-radius: 100%;
-   margin-top: 10px;
-  }
-  /* media queries here */
+/* social fixed buttons css here */
+.social-d {
+  width: 4%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 70%;
+  left: 2%;
+  border-radius: 100px;
+  z-index: 9999;
+}
+.social-d img {
+  width: 100%;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+/* media queries here */
 
-  /* clicking nav css here */
-  
-  .d-nonee{
+/* clicking nav css here */
+
+.d-nonee {
+  display: none;
+}
+.read-more-btn {
+  display: none;
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+.read-less-btn {
+  display: none;
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .read-more-text {
     display: none;
   }
+  .read-more-btn {
+    display: inline-block;
+  }
+}
